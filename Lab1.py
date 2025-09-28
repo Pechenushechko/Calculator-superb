@@ -11,3 +11,8 @@ while True:
         print(f"Разность: {a - b}")
     elif c == "3":
         print(f"Произведение: {a * b}")
+    elif c == "4":
+        if b != 0:
+            print(f"Частное: {a / b}")
+        else:
+            print("Ошибка: Деление на ноль!")
