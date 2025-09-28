@@ -1,6 +1,7 @@
 while True:
     a = float(input("Enter a number: "))
     b = float(input("Enter another number: "))
+    
     print("Какую операцию вы хотите выполнить?")
     print("1.Сложение\n2.Вычитание\n3.Умножение\n4.Деление\n5.Выход")
     c = input("Введите номер операции (1/2/3/4/5): ")
@@ -16,3 +17,6 @@ while True:
             print(f"Частное: {a / b}")
         else:
             print("Ошибка: Деление на ноль!")
+    elif c == "5":
+        print("Выход из программы.")
+        break
