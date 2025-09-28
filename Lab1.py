@@ -7,3 +7,5 @@ while True:
 
     if c == "1":
         print(f"Сумма: {a + b}")
+    elif c == "2":
+        print(f"Разность: {a - b}")
