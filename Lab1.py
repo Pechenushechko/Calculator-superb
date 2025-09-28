@@ -9,3 +9,5 @@ while True:
         print(f"Сумма: {a + b}")
     elif c == "2":
         print(f"Разность: {a - b}")
+    elif c == "3":
+        print(f"Произведение: {a * b}")
